@@ -1,0 +1,5 @@
+This model has been fine-tuned on the Nepal Tourism Q&A dataset.
+Base model: meta-llama/Llama-3.2-1B
+Training examples: 70
+Epochs: 3
+LoRA rank: 8

@@ -1,0 +1,22 @@
+# Nepal Tourism Chatbot — Python Dependencies
+# Install with:  pip install -r requirements.txt
+
+# ── Core RAG dependencies ─────────────────────────────────
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+transformers>=4.36.0
+torch>=2.0.0
+nltk>=3.8.0
+
+# ── Fine-tuning dependencies (REQUIRED for finetune script) ──
+peft>=0.7.0           # LoRA / parameter-efficient fine-tuning
+trl>=0.7.0            # SFTTrainer for supervised fine-tuning
+datasets>=2.14.0      # Hugging Face datasets loader
+accelerate>=0.25.0    # Distributed training / device management
+
+# ── Optional: faster training on GPU ─────────────────────
+# bitsandbytes>=0.41.0  # 4-bit quantization (NVIDIA GPU only)
+# scipy>=1.10.0
+
+# ── GUI (built-in with Python, listed for documentation) ─
+# tkinter — comes with Python standard library
